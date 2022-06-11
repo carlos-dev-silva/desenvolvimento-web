@@ -1,0 +1,33 @@
+*{
+    background-color: #d8dfe8;
+    font-family: 'Tahoma';
+}
+
+.num {
+    width: 110px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 8px;
+    color: black;
+    border: 1px solid #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.result {
+    width: 110px;
+    height: 25px;
+    border-radius: 10px;
+    top: auto;
+    
+}
+
+.result:hover {
+    background: gray;
+    color:black;
+    transform: scale(1.3);
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+
